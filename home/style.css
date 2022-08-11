@@ -1,0 +1,104 @@
+.header {
+  width: 100%;
+  text-align: center;
+  background-color: #080ebf;
+  transition: 0.2s;
+}
+
+body {
+  background-color: #0099ff;
+}
+
+.header .wrapper {
+  width: 100%;
+  padding-top: 146px;
+  padding-bottom: 0px;
+  background-color: #0099ff;
+  z-index: 100;
+  position: relative;
+}
+
+.section {
+  padding: 0px;
+  overflow: hidden;
+}
+
+.header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  margin: auto;
+  z-index: 100;
+}
+
+.section .wrapper {
+  padding-left: 60px;
+  padding-right: 60px;
+  overflow: hidden;
+}
+
+.header svg {
+  display: block;
+  margin-top: -100px;
+  z-index: 1;
+  position: relative;
+}
+
+.section h2 {
+  color: white;
+  font-size: 60px;
+  z-index: 4;
+}
+
+.section p {
+  color: white;
+  font-size: 23px;
+  z-index: 4;
+}
+
+#apps .wrapper {
+  background-color: #080ebf;
+  transition: 0.2s;
+  height: 100%;
+}
+
+#apps {
+  background-color: #50e28f;
+}
+
+#games .wrapper {
+  background-color: #50e28f;
+  padding-bottom: 80px;
+}
+
+.section svg {
+  display: block;
+  margin-top: -1px;
+}
+
+.section .wrapper button {
+  background-color: #0099ff;
+  color: white;
+  height: 60px;
+  width: 140px;
+  border: none;
+  border-radius: 7px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+  z-index: 4;
+}
+
+.section .wrapper button:hover {
+  background-color: #036eb5;
+}
+
+.section .wrapper svg {
+  position: absolute;
+  z-index: 100;
+}
+
+@media (max-width: 1000px) {
+  .header svg {
+    margin-top: -20px;
+  }
+}
