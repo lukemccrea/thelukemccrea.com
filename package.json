@@ -1,0 +1,26 @@
+{
+  "name": "Expressjs-Template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "body-parser": "^1.20.0",
+    "chalk": "^5.0.0",
+    "discord-rpc": "^4.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "html": "^1.0.0",
+    "nodejs-nodemailer-outlook": "^1.2.4",
+    "server": "^1.0.27",
+    "socket.io": "^2.3.0",
+    "underscore.string": "^3.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+<head>
+  <title>Blog Maker</title>
+</head>
+<body>
+  <input type='text' id="title" placeholder="Title">
+  <input type='text' id="description" placeholder="Description">
+  <input type='text' id="keywords" placeholder="Keywords">
+  <input type='text' id="article" placeholder="Article">
+  <button onclick="generate()">Go</button>
+  <p id="display"></p>
+  <script>
+    const titleElement = document.getElementById('title')
+    const descriptionElement = document.getElementById('description')
+    const keywordsElement = document.getElementById('keywords')
+    const articleElement = document.getElementById('article')
+    const displayElement = document.getElementById('display')
+
+    function generate(){
+      displayElement.innerHTML = text;
+    }
+  </script>
+</body>
