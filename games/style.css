@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+}
+
+.header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+}
+
+.header .section{
+  background-color: #50e28f;
+  text-align: center;
+  padding-top: 156px;
+  padding-bottom: 40px;
+}
+
+.header svg {
+  width: 100%;
+  margin-top: -10px;
+}
+
+.app p {
+  font-size: 20px;
+}
+
+.app {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: block;
+  width: 90%;
+  overflow: hidden;
+}
+
+.app a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  transition: 0.2s;
+}
+
+.app a:hover {
+  color: blue;
+}
+
+.app div {
+  width: 40%;
+  display: inline;
+  position: relative;
+}
+
+.app .right {
+  float: right;
+}
+
+.app .left {
+  float: left;
+}
+
+.app img {
+  width: 100%;
+}
+
+#appList {
+  width: 100vw;
+}
+
+hr {
+  width: 90%;
+  display: block;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .app div {
+    display: block;
+    width: 100%;
+  }
+}
