@@ -1,0 +1,121 @@
+.content {
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+  padding-top: 56px;
+}
+
+.letter {
+  width: 50px;
+  font-size: 50px;
+  text-align: center;
+  border: none;
+  transition: 0.3s;
+  text-transform: uppercase; 
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  text-align: center;
+}
+
+.switchColor {
+  background-color: #cccccc;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius:50%;
+  height: 17px;
+  width: 17px;
+  padding: 0px;
+  text-align: center;
+}
+
+.switchColor:hover {
+  background-color: #aaaaaa;
+}
+
+#search {
+  border: none;
+  background-color: #238b23;
+  margin: auto;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.2s;
+  margin-top: 20px;
+}
+
+#search:hover {
+  background-color: #024b02;
+}
+
+#results {
+  background-color: #f0f0f0;
+  margin: 40px;
+  padding: 5px;
+}
+
+#results p {
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  background-color: grey;
+  padding: 3px;
+  margin: 3px;
+}
+
+#wordleWrapper {
+  background-color: #f0f0f0;
+  margin: 40px;
+  padding: 50px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: #3541b5;
+  width: 20px;
+  height: 20px;
+  color: white;
+  transition: 0.2s;
+}
+
+.tooltip .tooltiptext {
+  opacity: 0%;
+  width: 200px;
+  top: 100%;
+  left: 50%;
+  margin-left: -100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 6px;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  transition: 0.2s;
+  font-size: 14px;
+}
+
+.tooltip:hover .tooltiptext {
+  opacity: 100%;
+  visibility: visible;
+}
+
+.tooltip:hover {
+  background-color: #252e7d;
+}
