@@ -1,8 +1,0 @@
-#Googlebot
-User-agent: Googlebot
-Allow: *.css
-Allow: *.js# global
-
-User-agent: *
-Disallow: /wp-admin/
-Disallow: /wp-includes/
