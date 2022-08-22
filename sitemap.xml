@@ -7,43 +7,43 @@
 
 
 <url>
-  <loc>https://thelukemccrea.com/home</loc>
+  <loc>https://thelukemccrea.com/home/</loc>
   <lastmod>2022-08-04T01:51:57+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
-<url>
-  <loc>https://thelukemccrea.com/apps</loc>
+<url> 
+  <loc>https://thelukemccrea.com/apps/</loc>
   <lastmod>2022-08-05T02:06:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://thelukemccrea.com/games</loc>
+  <loc>https://thelukemccrea.com/games/</loc>
   <lastmod>2022-08-04T01:52:16+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://thelukemccrea.com/blog</loc>
+  <loc>https://thelukemccrea.com/blog/</loc>
   <lastmod>2022-08-04T01:53:09+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://thelukemccrea.com/apps/wordlefinder</loc>
+  <loc>https://thelukemccrea.com/apps/wordlefinder/</loc>
   <lastmod>2022-08-03T22:39:38+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://thelukemccrea.com/games/minigames</loc>
+  <loc>https://thelukemccrea.com/games/minigames/</loc>
   <lastmod>2022-08-04T01:52:39+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://thelukemccrea.com/blog/ExpressJsServer</loc>
+  <loc>https://thelukemccrea.com/blog/ExpressJsServer/</loc>
   <lastmod>2022-08-05T02:10:52+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
