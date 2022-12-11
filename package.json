@@ -1,0 +1,12 @@
+{
+    "name": "thelukemccrea.com",
+    "description": "My personal website for showcasing my projects!",
+    "version": "1.2.",
+    "homepage": "http://thelukemccrea.com",
+    "author": "Luke McCrea",
+    "browser": "index.html",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lukemccrea/thelukemccrea.com.git"
+    }
+}
